@@ -1,0 +1,15 @@
+
+<h1 mat-card-title>Comfirmación de la operación?</h1>
+<div mat-dialog-content>
+  <p>Este proceso no es reversible, esta apunto de eliminar el registro {{ data.superhero }}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No, Thanks</button>
+  <span class="spacer"></span>
+  <button mat-button
+  (click)="confirm()"
+  color="primary"
+  >Ok</button>
+
+</div>
+
